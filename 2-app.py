@@ -11,7 +11,7 @@ from transformers import pipeline
 import boto3
 bucket_name = "mlops-kgptalkie-rahul"
 
-local_path = r'C:\AI\ml-ops-and-model-deployment-on-aws\ml-ops-and-model-deployment-on-aws-main\08-Deploy_ML_Model_at_Streamlit_Server\tinybert-sentiment-analysis'
+local_path = 'tinybert-sentiment-analysis'
 s3_prefix = 'ml-models/tinybert-sentiment-analysis/'
 
 s3 = boto3.client('s3')
